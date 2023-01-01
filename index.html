@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</head>
+
+<body class="bg-white flex justify-center items-stretch min-h-screen px-16">
+    <div class="flex items-center justify-center bg-slate-50 w-[100%] text-white p-8">
+        <form class="bg-white text-slate-900 shadow-xl rounded-xl max-w-[500px] p-12" action="#">
+            <h1 class="text-2xl font-bold">Enter your password</h1>
+            <div class="flex items-center mt-6">
+                <img src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg&w=64&q=75" class="w-18 h-18 rounded-full">
+                <div class="ml-2">
+                    <p class="text-sm">Business Account<p/>
+                    <p class="text-lg font-bold">Sarah Bills<p/>
+                </div>
+            </div>
+            <div class="mt-7">
+                <label class="block text-sm">Password</label>
+                <div class="flex items-center">
+                    <iconify-icon icon="material-symbols:lock-outline" class="absolute ml-[.5rem]"></iconify-icon>
+                    <input type="password" class="border-2 border-slate-600 rounded-md pl-6 pr-2 py-1 flex-1" />
+                    <button type="button" class="ml-2"><iconify-icon icon="mdi:eye-off-outline"></iconify-icon></button>
+                </div>
+            </div>
+
+            <div class="text-sm flex items-center mt-8">
+                <div class="flex items-center">
+                    <button type="button" class="leading-0 w-11 text-[1.5rem] flex items-center border-2 border-slate-700 rounded-full">
+                        <iconify-icon icon="carbon:dot-mark"></iconify-icon>
+                    </button>
+                     <p class="ml-1">Stay signed in</p>
+                </div>
+
+                <button class="ml-auto py-2 px-3 rounded-md bg-black text-white">Continue</button>
+            </div>
+
+            <a href="#" class="block text-sm mt-6 underline">Reset password</a>
+        </form>
+    </div>
+</body>
+
+</html>
